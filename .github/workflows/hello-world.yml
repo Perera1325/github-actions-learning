@@ -17,7 +17,7 @@ jobs:
       - name: Print current time
         run: date
       
-      - name: Print runner information
+      - name: Print running  information
         run: |
           echo "Runner OS: ${{ runner.os }}"
           echo "Runner Arch: ${{ runner.arch }}"
